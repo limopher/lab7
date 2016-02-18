@@ -10,4 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+	$("a.likeBtn").click(projectClick);
+}
+
+function projectClick(e){
+	e.preventDefault();
 }
